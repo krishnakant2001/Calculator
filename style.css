@@ -1,0 +1,67 @@
+body {
+  background-color: #353535;
+  color: white;
+  font-family: "Roboto Mono", monospace;
+  margin-top: 80px;
+}
+.container {
+  text-align: center;
+  margin-top: 23px;
+}
+h1 {
+  /* font-variant: small-caps; */
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  margin-bottom: 30px;
+}
+table {
+  margin: auto;
+}
+
+input {
+  font-size: 35px;
+  border-radius: 15px;
+  border: 2px solid;
+  width: 350px;
+  padding-left: 15px;
+  padding-right: 15px;
+  height: 45px;
+  margin-bottom: 15px;
+  text-align: right;
+}
+
+button {
+  font-size: 30px;
+  background: #f8ff85eb;
+  width: 90px;
+  height: 50px;
+  border-radius: 15px;
+  border: 1px solid grey;
+}
+button:hover {
+  background: #f7ff5d;
+  border: 2px solid grey;
+}
+button:active {
+  font-weight: bold;
+}
+
+.calculator {
+  border-radius: 15px;
+  display: inline-block;
+  background: #c0bdfe;
+  padding: 15px;
+}
+
+td {
+  padding: 2px;
+}
+#text_back {
+  font-size: small;
+}
+#btn-eql {
+  background: #7cff5f;
+}
+#btn-eql:hover {
+  background: #58cf3d;
+}
